@@ -1,0 +1,62 @@
+<!DCOTYPE html>
+
+<html>
+<head>
+<title>The SMNPC Company</title>
+<meta name="keywords" content="PXS, PCS, VES, CNS, VLS">
+
+<!--
+<meta encoding="utf-8">
+<meta http-equiv="refresh" content="5; url=http://java02.smnpc.com/Hao123/">
+-->
+</head>
+
+<body>
+<h1>The SMNPC Company</h1>
+<p>Welcome to The SMNPC Company, We hope you will find our site a uesful resource for becoming a better workor.</p>
+<p>It is a good <b>Time</b> for us to study <i>HTML5</i>. <b><i>Day Day up !</i></b></p>
+<p>Please sotp and think twice!<sup>1</sup></p>
+<p>
+Our main address is located at:<br>
+<h2>Come to our store</h2>
+ZheJiang, Sanmen city<br>
+Near Sea
+</p>
+
+<p>电话1:010-1234567</p>
+<p>E-mail1:010-1234567@mail.com</p>
+<p>电话2:020-1234567<br>
+E-mail2:020-1234567@mail.com
+</p>
+
+<canvas id="mycanvas_1" width="200" height="100" style="border:1px solid #000000; background:#ffffff;"></canvas>
+<p></p>
+<canvas id="mycanvas_2" width="200" height="100" style="border:1px solid #000000; background:#ffffff;"></canvas>
+
+<script>
+var c=document.getElementById("mycanvas_1");
+var ctx=c.getContext("2d");   //公共部分，获取canvasId
+
+ctx.arc(100,50,50,0,2*Math.PI);
+ctx.stroke();
+
+ctx.font="30px Arial";
+ctx.fillText("Hello World", 20,40);
+
+ctx.font="30px Arial";
+ctx.strokeText("Hello World", 20,80);
+</script>
+
+<script>
+var c=document.getElementById("mycanvas_1");
+var ctx=c.getContext("2d");
+ctx.arc(100,50,50,0,2*Math.PI);
+ctx.stroke();
+ctx.font="30px Arial";
+ctx.fillText("Hello World", 20,40);
+ctx.strokeText("Hello World", 20,80);
+</script>
+
+
+</body>
+</html>
